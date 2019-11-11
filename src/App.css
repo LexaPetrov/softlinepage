@@ -1,0 +1,19 @@
+@font-face {
+
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  background-image: url("./img/bg.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow: hidden;
+  height: 1800px;
+}
+
