@@ -4,6 +4,7 @@
 }
 
 .headerTop {
+    font-family: "SegoeUI", sans-serif;
     display: inline-flex;
     width: 100%;
 }
@@ -14,15 +15,55 @@
 }
 
 .headerTitle {
+    display: inline-flex;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 0.5;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.HeaderTitleFirst {
+    text-align: left;
+    font-size: 31px;
+    color: #fff;
+    position: relative;
+    line-height: 1.5;
+    /*background: #005b7f;*/
+}
+
+.HeaderTitleFirst label {
+    background-color: #005b7f;
+}
+
+.HeaderTitleSecond {
+    font-size: 67px;
+    color: #005b7f;
+    position: absolute;
+    margin-top: -10px;
 }
 
 .headerMenu {
+    height: 50%;
+    font-size: 14px;
     background: #005b7f;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 30px;
+
 }
 
 .headerMenu ul{
-    padding: 0;
-    list-style-type: none;
+     padding: 0;
+    margin: 0;
+     list-style-type: none;
+ }
+
+.headerMenu ul li:nth-of-type(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .headerMenu a{
@@ -38,4 +79,18 @@
 .headerText {
     max-width: 613px;
     text-align: left;
+    margin-top: 35px;
+}
+
+.headerText1 {
+    font-size: 24px;
+}
+
+.headerText2, .headerText3, .headerText4 {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.headerText4 {
+    text-decoration: none;
 }

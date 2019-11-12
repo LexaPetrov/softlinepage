@@ -1,5 +1,11 @@
 @font-face {
+  font-family: 'Trebuchet MS', sans-serif;
+  src: url('./fonts/Trebuchet MS.ttf');
+}
 
+@font-face {
+  font-family: 'SedoeUI', sans-serif;
+  src: url('./fonts/SegoeUI.ttf');
 }
 
 body {

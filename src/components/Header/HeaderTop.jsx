@@ -8,13 +8,13 @@ const HeaderTop = () => {
                     <img src="./allsoftlogo.jpg" alt=""/>
                 </div>
                 <div className={h.headerTitle}>
-                    <p>
-                        Новогодняя викторина
-                        от Allsoft.ru
+                    <p className={h.HeaderTitleFirst}>
+                        <label htmlFor="">&ensp;Новогодняя викторина&ensp;</label> <br/>
+                        <label htmlFor="">&ensp;от Allsoft.ru&ensp;</label><span className={h.HeaderTitleSecond}>2019</span>
                     </p>
-                    <p>
-                        2019
-                    </p>
+                    {/*<p className={h.HeaderTitleSecond}>*/}
+                    {/*    2019*/}
+                    {/*</p>*/}
                 </div>
                 <div className={h.headerMenu}>
                     <ul>
