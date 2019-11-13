@@ -1,5 +1,6 @@
 import React from 'react';
 import q from './Quiz.module.css';
+import QuizContent from "./QuizContent";
 
 const Quiz = () =>{
     return (
@@ -7,6 +8,7 @@ const Quiz = () =>{
             <div className={q.quizHeader}>
                 <img src="./quiz3.png" alt=""/>
             </div>
+            <QuizContent />
         </div>
     )
 }
