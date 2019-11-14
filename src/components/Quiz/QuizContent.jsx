@@ -1,16 +1,14 @@
 import React from 'react';
 import q from './Quiz.module.css';
 import QuizContentRight from "./QuizContentRight";
+import QuizContentLeft from "./QuizContentLeft";
 
 const QuizContent = () => {
     return (
         <div className={q.quizContent}>
-            <div className={q.quizContentLeft}>
-                <p>Новогодняя
-                    викторина</p>
-            </div>
-            <QuizContentRight/>
 
+            <QuizContentLeft />
+                <QuizContentRight/>
         </div>
     )
 }
