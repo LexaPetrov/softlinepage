@@ -4,8 +4,6 @@
     margin-top: 55px;
     text-align: left;
     margin-left: 45px;
-    display: flex;
-
 }
 
 .ideas p {
@@ -13,27 +11,51 @@
     font-size: 24px;
 }
 
-.ideas a {
+.ideas .ideasHeader a {
     font-size: 14px;
     text-decoration: none;
 }
 
+.ideasItemList {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 30px;
+}
+
 .ideasItem {
     display: flex;
+    margin-right: 70px;
 }
 
 .ideasItemImg {
+    width: 90px;
+}
 
+.ideasItemImg img {
+    width: 90px;
 }
 
 .ideasItemText {
-
+    margin-left: 10px;
 }
 
 .ideasItemText .title {
     font-size: 14px;
+    margin-bottom: 14px;
+    margin-top: -5px;
+}
+
+.ideasItemText .title a{
+    text-decoration: underline;
 }
 
 .ideasItemText .text {
     font-size: 12px;
+}
+
+@media screen and (max-width: 591px) {
+    .ideasItemList {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

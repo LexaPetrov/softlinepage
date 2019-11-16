@@ -1,3 +1,55 @@
-.ideas {
+.footer {
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 12px;
+    max-width: 100%;
+    display: flex;
+    padding: 38px 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerItem1 {
+
+}
+.footerItem2 {
+    text-align: left;
+}
+.footerItem3 {
+
+}
+.footerItem4 {
+
+}
+
+@media screen and (max-width: 799px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0   auto;
+        padding: 38px 5px;
+    }
+
+    .footerItem2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0   auto;
+        padding: 38px 12px;
+    }
+
+    .footerItem2 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 989px) {
+    .footer {
+        padding: 38px 12px;
+    }
 
 }

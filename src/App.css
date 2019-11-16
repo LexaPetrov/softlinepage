@@ -13,30 +13,31 @@ body {
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   text-align: center;
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
+  min-width: 320px;
   background-image: url("./img/bgfull.jpg");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: top;
-  overflow: hidden;
-  height: 1800px;
-}
-
-@media screen and (max-width: 320px) {
+  background-position: bottom;
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 639px) {
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  /*.content {*/
+  /*  background-position: 70% 150%;*/
+  /*}*/
+
+
 }
 
-@media screen and (min-width: 640px) and (max-width: 959px) {
+@media screen and (min-width: 641px) and (max-width: 724px) {
+  /*.content {*/
+  /*  background-position: left bottom;*/
+  /*}*/
+
 }
 
-@media screen and (min-width: 960px) and (max-width: 1279px) {
-}
+/*591 - для Quiz, при меньшей ширине едетт его правая часть*/

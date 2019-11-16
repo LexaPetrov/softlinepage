@@ -8,7 +8,7 @@ const IdeasItem = (props) => {
                 <img src={props.image} alt="ideasItem"/>
             </div>
              <div className={i.ideasItemText}>
-                 <p className={i.title}>{props.title}</p>
+                 <a href="#"><p className={i.title}>{props.title}</p></a>
                  <p className={i.text}>{props.text}</p>
              </div>
         </div>
