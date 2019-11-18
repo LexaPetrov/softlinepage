@@ -19,25 +19,18 @@ body {
   max-width: 1000px;
   min-width: 320px;
   background-image: url("./img/bgfull.jpg");
-  background-size: auto;
+  background-size: 1500px 1900px;
   background-repeat: no-repeat;
-  background-position: bottom;
-
+  background-position: top;
 }
 
-@media screen and (min-width: 321px) and (max-width: 640px) {
-  /*.content {*/
-  /*  background-position: 70% 150%;*/
-  /*}*/
-
-
-}
-
-@media screen and (min-width: 641px) and (max-width: 724px) {
-  /*.content {*/
-  /*  background-position: left bottom;*/
-  /*}*/
-
+@media screen and (min-width: 321px) and (max-width: 725px) {
+  .content{
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
 }
 
 /*591 - для Quiz, при меньшей ширине едетт его правая часть*/
+

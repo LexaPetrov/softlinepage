@@ -9,7 +9,7 @@ const HeaderTop = () => {
                 </div>
                 <div className={h.headerTitle}>
                     <p className={h.HeaderTitleFirst}>
-                        <label htmlFor="">&ensp;Новогодняя викторина&ensp;</label> <br/>
+                        <label htmlFor=""><span className={h.space}>&ensp;</span>Новогодняя викторина&ensp;</label> <br/>
                         <label htmlFor="">&ensp;от Allsoft.ru&ensp;</label><span className={h.HeaderTitleSecond}>2019</span>
                     </p>
                     {/*<p className={h.HeaderTitleSecond}>*/}

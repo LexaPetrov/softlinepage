@@ -53,9 +53,29 @@
     font-size: 12px;
 }
 
+@media screen and (max-width: 325px) {
+    /*.ideas {*/
+    /*    background: #fff;*/
+    /*}*/
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .ideas {
+        margin: 0;
+        padding-left: 25px;
+    }
+}
+
 @media screen and (max-width: 591px) {
     .ideasItemList {
         display: flex;
         flex-wrap: wrap;
+    }
+    .ideasHeader p {
+        background: #fff;
+        padding: 5px;
+        border-radius: 5px;
     }
 }

@@ -6,9 +6,106 @@
     max-width: 100%;
 }
 
+
 .partnersSlider {
-    border: 2px solid #36a01d ;
+    border-top: 2px solid #36a01d;
+    border-bottom: 2px solid #36a01d;
     max-width: 100%;
     display: flex;
+    margin: 0 28px;
+    height: 86px;
+    border-radius: 25px;
+    justify-content: space-around;
+    background: #fff;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 0 29px;
 }
 
+
+.sliderItems {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.partnersPrev {
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+
+.partnersNext {
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+
+.partnersPrev a:hover {
+    opacity: 0.7;
+}
+
+.partnersNext a:hover{
+    opacity: 0.7;
+}
+
+
+
+.partnersItem {
+    margin: 0 10px;
+}
+
+.tree {
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: -1000px;
+    position: absolute;
+}
+.tree1, .tree2, .tree3, .tree4, .tree5 {
+    width: 100px;
+    height: 50px;
+    text-align:  center;
+}
+
+.tree1 {
+    position: absolute;
+    margin-top: -280px;
+}
+
+.tree2 {
+    margin-top: -185px;
+    margin-left: -90px;
+}
+
+.tree3 {
+     margin-top: 70px;
+ }
+
+.tree4 {
+    margin-top: 100px;
+}
+
+.tree5 {
+    margin-top: 120px;
+}
+.tree a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 949px) {
+    .tree {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 999px) {
+    .tree1, .tree2, .tree3, .tree4, .tree5 {
+        margin-left: -55px;
+    }
+}

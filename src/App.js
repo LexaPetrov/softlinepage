@@ -6,6 +6,8 @@ import Partners from "./components/Partners/Partners";
 import Ideas from "./components/Ideas/Ideas";
 import Footer from "./components/Footer/Footer";
 
+
+
 const App = () => {
     return (
         <div className="content">
